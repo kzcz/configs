@@ -90,3 +90,12 @@ require('nvim-treesitter-textobjects').setup({
 vim.cmd('colorscheme gruvbox')
 vim.o.background = 'dark'
 
+vim.cmd [[
+set number
+set relativenumber
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set ruler
+set showcmd
+]]
