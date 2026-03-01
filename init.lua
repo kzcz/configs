@@ -54,7 +54,7 @@ vim.lsp.config('ruff', { cmd = { "ruff", "server" }, filetypes = { "python" }, c
     settings = {
         lineLength = 88,
     }
-})
+}})
 
 vim.lsp.enable('clangd')
 vim.lsp.enable('bashls')

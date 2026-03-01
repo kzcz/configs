@@ -1,3 +1,4 @@
+#!/usr/bin/env zsh
 hascmd() { (( $+commands[$1] )) }
 hascmd pacman || echo "This script at the moment only supports arch linux.";
 hascmd npm || sudo pacman -Sy npm

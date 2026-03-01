@@ -7,8 +7,8 @@ I recommend examining the files and making any desired changes.
 2. Install dependencies
 3. `sudo cp ./bash.bashrc /etc/bash.bashrc`
 4. `sudo cp ./zshrc.zsh /etc/zsh/zshrc`
-5. `./setup_nvim.zsh`
-6. `./install_ls.zsh`
+5. `./install_ls.zsh`
+6. `./setup_nvim.zsh`
 7. `exec $SHELL` to reload your shell
 ## Dependencies
 - One of zsh or bash
