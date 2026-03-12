@@ -1,4 +1,6 @@
 [[ $- != *i* ]] && return
+shopt -s histappend
+shopt -s histverify
 source /etc/environment
 export HISTCONTROL=ignoredups:erasedups
 alias ls='ls --color=auto'
