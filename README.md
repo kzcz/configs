@@ -2,11 +2,11 @@
 A collection of the setup info of my systems to inspire other people, and/or let them take this as a reference for their own system.
 # Installation
 I recommend examining the files and making any desired changes.  
-**Note**: This repository's main target is **Arch Linux**, minor modifications are required to install in other distros.  
+**Note**: This branch is aimed specifically at termux, for general desktop usage, use the main branch instead. 
 1. Clone this repo
 2. Install dependencies
-3. `sudo cp ./bash.bashrc /etc/bash.bashrc`
-4. `sudo cp ./zshrc.zsh /etc/zsh/zshrc`
+3. `cp ./bash.bashrc $PREFIX/etc/bash.bashrc`
+4. `cp ./zshrc.zsh $PREFIX/etc/zshrc`
 5. `./install_ls.zsh`
 6. `./setup_nvim.zsh`
 7. `exec $SHELL` to reload your shell
