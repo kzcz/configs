@@ -15,6 +15,9 @@ I recommend examining the files and making any desired changes.
 - zsh-syntax-highlighting if using zsh
 - neovim and neovim-treesitter
 - npm
+### How to install zsh-syntax-highlighting
+1. Clone the [repo](https://github.com/zsh-users/zsh-syntax-highlighting)
+2. `make install`
 ### Neovim language servers
 - clangd
 - bash-language-server (npm)
